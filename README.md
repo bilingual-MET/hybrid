@@ -17,7 +17,8 @@ This repository contains code used for developing a hybrid architecture. This de
   
 ### Token-level Labels
 [Step 1](Step1-Token-level.ipynb)
+  
 [Step 2](Step2-Token-level.ipynb)
 
 ### Tweet-level Labels
-[Step](Tweet-labels.ipynb)
+[Steps](Tweet-labels.ipynb)
