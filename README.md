@@ -13,6 +13,10 @@ This repository contains code used for developing a hybrid architecture. This de
 |1016|	x25|	<user> oh man, take me, take me!!|	'take', 'me', 'take', 'me'|
 
 ### Pre-processing
+  
+#### Filtering out non-English and non-Maori tweets
+  A series of manual checks and a simple [Python script](Filter_nonEnglish_nonMaori_tweets.py) were used to filter out tweets that contain languages other than English and Māori. A series of small subsets of the data (first 100, last 100, middle 100, etc.) were extracted and manually investigated. Any user who posted a tweet in a language other than English or Māori was marked and their user ID was recorded. These user IDs were passed into the Python script, which removed tweets by these users from the dataset. Finally, a search was conducted to identify tweets that contained apostrophies mid-word (e.g. "Lota nu'u ua ou fanau ai"). The user ID for these tweets was also recorded and passed into the Python script. 
+  
 [Additional pre-processing](Additional-preprocessing.ipynb)
   
 ### Token-level Labels
