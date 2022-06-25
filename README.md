@@ -1,6 +1,6 @@
 # Hybrid Architecture for Labelling Bilingual Māori-English Tweets
 
-This repository contains code used for developing a hybrid architecture. This depositary provide only a sample data for demo.
+This repository contains the code that was used to develop a hybrid architecture for labelling bilingual Māori-English tweets. A small sample file is provided for demonstration purposes, along with code for downloading additional tweets.
 
 ## Architecture
 
