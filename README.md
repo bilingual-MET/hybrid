@@ -8,9 +8,9 @@ This repository contains code used to develop a hybrid architecture for labellin
 
 ## Collect and Pre-process Tweets
   
-- Step 0: Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-for-access) if you do not have one already.
-- Step 1: Download or clone the [nga-kupu repository](https://github.com/TeHikuMedia/nga-kupu), which is bound by the [Kaitiakitanga Licence](https://tehiku.nz/te-hiku-tech/te-hiku-dev-korero/25141/data-sovereignty-and-the-kaitiakitanga-license).
-- Step 2: Ensure that Python 3 is installed on your machine, then run the following commands in the terminal:
+0. Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-for-access) if you do not have one already.
+1. Download or clone the [nga-kupu](https://github.com/TeHikuMedia/nga-kupu) repository, which is bound by the [Kaitiakitanga Licence](https://tehiku.nz/te-hiku-tech/te-hiku-dev-korero/25141/data-sovereignty-and-the-kaitiakitanga-license).
+2. Ensure that Python 3 is installed on your machine, then run the following commands in the terminal:
 ```
 pip install requests
 pip install requests-oauthlib
@@ -18,15 +18,12 @@ pip install yelp_uri
 pip install beautifulsoup4
 pip install emot
 ```
-- Step 3:.Copy all files in the `preprocessing` folder to the `scripts` folder in the `nga-kupu` repository. Also update the four word lists in `__init.py__` in the `taumahi` folder as per `update_word_lists.txt` (i.e. modify the first word list and clear the other three). Run `python3 setup.py install` from the main `nga-kupu` folder.
-- Step 4: Configure your API bearer token by running the following command in the terminal:
-```
-export 'BEARER_TOKEN'='<your_bearer_token>'
-```
-- Step 5: Run the `collect_and_clean.py` script that you moved to the `scripts` folder. This script gathers tweets from the past week from a predefined list of users (`users.csv`), then cleans the tweets and generates the RMT labels that are needed as input to the hybrid architecture. Run the following command from the working directory: 
-```
-python3 collect_and_clean_tweets.py
-``` 
+3. Copy all files in the `preprocessing` folder of this repository to `nga-kupu-master/scripts`. 
+4. Update the four word lists in `nga-kupu-master/taumahi/__init.py__` according to the instructions in `update_word_lists.txt` (i.e. modify the first word list and clear the other three). 
+5. Run `python3 setup.py install` from `nga-kupu-master`.
+6. Configure your API bearer token by running the following command in the terminal: `export 'BEARER_TOKEN'='<your_bearer_token>'`
+7. Run the `collect_and_clean_tweets.py` script that you moved to the `scripts` folder: `python3 collect_and_clean_tweets.py`.
+This script gathers tweets from the past week from a predefined list of users (`users.csv`), then cleans the tweets and generates the RMT labels that are needed as input to the hybrid architecture.
 
 ## Run Experiments
 
