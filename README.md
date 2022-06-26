@@ -6,7 +6,7 @@ This repository contains code used to develop a hybrid architecture for labellin
 
 ![hybrid_updated](https://user-images.githubusercontent.com/107286789/173212143-ef287a66-2f30-4b31-9ee7-1fc53409925b.png)
 
-### Collect and Pre-process Tweets
+## Collect and Pre-process Tweets
   
 - Step 0: Apply for a [Twitter developer account](https://developer.twitter.com/en/apply-for-access) if you do not have one already.
 - Step 1: Download or clone the [nga-kupu repository](https://github.com/TeHikuMedia/nga-kupu), which is bound by the [Kaitiakitanga Licence](https://tehiku.nz/te-hiku-tech/te-hiku-dev-korero/25141/data-sovereignty-and-the-kaitiakitanga-license).
@@ -28,7 +28,9 @@ export 'BEARER_TOKEN'='<your_bearer_token>'
 python3 collect_and_clean_tweets.py
 ``` 
 
-## Sample Data for Architecture Experiments
+## Run Experiments
+
+### Sample Data
 |tweet_id	|user_id	|modified_text|maori_words_rmt|
 | :------ | :-------- | :-------- | :----- |
 |1001|	x10|	Living by the Moon: Te Maramataka a Te Whānau-ā-Apanui, Wiremu Tāwhai Te Whānau-ā-Apanui, Te Whakatōhea, Ngāti Awa <link>	| 'te', 'maramataka', 'te', 'wiremu', 'tāwhai', 'te', 'te', 'whakatōhea', 'ngāti', 'awa'|		
