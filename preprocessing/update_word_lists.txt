@@ -1,0 +1,11 @@
+#Update word lists in the '__init__.py' script in the 'taumahi' folder of the 'nga-kupu' repository
+#https://github.com/TeHikuMedia/nga-kupu/blob/master/taumahi/__init__.py 
+
+#Update the kupu_kino list
+#We have removed all words that appear in the Māori dictionary (https://maoridictionary.co.nz/) if macrons are ignored.
+kupu_kino = ['aero', 'aere', 'aura', 'aurora', 'automate', 'amature', 'amino', 'anemia', 'anime', 'anita', 'ape', 'api', 'area', 'arena', 'aroma', 'atari', 'awake', 'aware', 'angie', 'eau', 'ei', 'eia', 'eine', 'eu', 'eureka', 'euro', 'europa', 'europe', 'emo', 'emu', 'erie', 'eta', 'engine', 'ie', 'ieee', 'iowa', 'iu', 'imo', 'initiate', 'ire', 'irene', 'itu', 'oa', 'oahu', 'oe', 'ohio', 'omaha', 'opera', 'operate', 'orange', 'owe', 'uae', 'una', 'unaware', 'une', 'uni', 'unite', 'uno', 'urine', 'utopia', 'haiti', 'hanoi', 'hawaii', 'hero', 'hike', 'hipaa', 'hire', 'hinge', 'home', 'homo', 'howe', 'humane', 'kauai', 'kane', 'karaoke', 'karate', 'kate', 'katie', 'kangaroo', 'keno', 'korea', 'maine', 'mauritania', 'manure', 'maria', 'mariana', 'mario', 'marina', 'marine', 'maritime', 'mateo', 'mature', 'memo', 'menu', 'meta', 'mi', 'miami', 'mio', 'mike', 'mime', 'mini', 'miniature', 'minute', 'moore', 'mono', 'mute', 'naomi', 'nauru', 'name', 'nano', 'napa', 'nate', 'nato', 'nature', 'neo', 'neu', 'nemo', 'nero', 'ni', 'nie', 'niue', 'nike', 'nina', 'nine', 'nite', 'no', 'noaa', 'nokia', 'nominate', 'nominee', 'nope', 'nora', 'note', 'nowhere', 'panama', 'panorama', 'peoria', 'pete', 'petite', 'piano', 'pie', 'pike', 'pipe', 'pirate', 'poe', 'pope', 'potato', 'ratio', 'range', 'reiki', 'remake', 'remote', 'rename', 'rene', 'renee', 'reno', 'retire', 'rio', 'ripe', 'roanoke', 'roe', 'rookie', 'route', 'routine', 'romania', 'rome', 'romeo', 'rope', 'rotate', 'rowe', 'rue', 'rupee', 'taipei', 'tape', 'tee', 'tenure', 'tie', 'time', 'tome', 'tone', 'topeka', 'tongue', 'tue', 'tune', 'wei', 'were', 'wie', 'wine', 'wipe', 'wire', 'woke', 'wore', 'wu', 'white', 'who', 'whore']
+
+#Clear the other three lists
+kupu_kino_kuare_tohuto = []
+kupu_rangirua = []
+kupu_rangirua_kuare_tohuto = []
