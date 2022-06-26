@@ -19,7 +19,7 @@ pip install beautifulsoup4
 pip install emot
 ```
 3. Copy all files in the `preprocessing` folder of this repository to `nga-kupu-master/scripts`. 
-4. Update the four word lists in `nga-kupu-master/taumahi/__init.py__` according to the instructions in `update_word_lists.txt` (i.e. modify the first word list and clear the other three). 
+4. Update the four word lists in `nga-kupu-master/taumahi/__init.py__` according to the instructions in `update_word_lists.txt`.
 5. Run `python3 setup.py install` from `nga-kupu-master`.
 6. Configure your API bearer token by running the following command in the terminal: `export 'BEARER_TOKEN'='<your_bearer_token>'`
 7. Run the `collect_and_clean_tweets.py` script that you moved to the `scripts` folder: `python3 collect_and_clean_tweets.py`.
