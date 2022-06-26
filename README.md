@@ -22,8 +22,7 @@ pip install emot
 4. Update the four word lists in `nga-kupu-master/taumahi/__init.py__` according to the instructions in `update_word_lists.txt`.
 5. Run `python3 setup.py install` from `nga-kupu-master`.
 6. Configure your API bearer token by running the following command in the terminal: `export 'BEARER_TOKEN'='<your_bearer_token>'`
-7. Run the `collect_and_clean_tweets.py` script that you moved to the `nga-kupu-master/scripts` folder: `python3 collect_and_clean_tweets.py`.
-This script gathers tweets from the past week from a predefined list of users (`users.csv`), then cleans the tweets and generates the RMT labels that are needed as input to the hybrid architecture (below).
+7. Run the `collect_and_clean_tweets.py` script that you moved to the `nga-kupu-master/scripts` folder. This script gathers tweets from the past week from a predefined list of users (`users.csv`), then cleans the tweets and generates the RMT labels that are needed as input to the hybrid architecture (below).
 
 ## Run Experiments
 
