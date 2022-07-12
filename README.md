@@ -4,7 +4,7 @@ This repository contains code used to develop a hybrid architecture for labellin
 
 ## Architecture
 
-![hybrid_updated](https://user-images.githubusercontent.com/107286789/173212143-ef287a66-2f30-4b31-9ee7-1fc53409925b.png)
+![hybrid_updated](flowchart.png)
 
 ## Collect and Pre-process Tweets
   
